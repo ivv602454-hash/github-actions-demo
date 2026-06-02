@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-      run: echo "${{ env.GREETING }}, World!"
+        run: echo "${{ env.GREETING }}, World!"

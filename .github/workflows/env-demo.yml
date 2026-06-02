@@ -9,5 +9,5 @@ jobs:
   print-greeting:
     runs-on: ubuntu-latest
     steps:
-      name: Print greeting
+      - name: Print greeting
       run: echo "${{ env.GREETING }}, World!"

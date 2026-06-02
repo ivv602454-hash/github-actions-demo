@@ -3,7 +3,7 @@ name: Environment Variable Demo
 on: [push]
 
 env:
-  GREETING: "Hi"
+  GREETING: "Hellow"
 
 jobs:
   print-greeting:
